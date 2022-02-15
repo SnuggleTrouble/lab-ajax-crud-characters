@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
     .getElementById("delete-one")
     .addEventListener("click", function (event) {
       charactersAPI
-        .deleteOneRegister(characterId)
+        .deleteOneRegister(characterIdDelete)
         .then(() => {
           document.getElementById("delete-one").style.backgroundColor = "green";
         })
